@@ -16,4 +16,23 @@
 .side-bar .nav ,
 .side-bar .tag-list {
   text-align: center;
+  display:none;
+}
+
+
+#menu {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  width: 30px;height: 30px;
+}
+
+#menu-toggle {
+  display: block;
+}
+#menu-checkbox:checked ~ .nav,
+#menu-checkbox:checked ~ .tag-list {
+  display: block;
 }
