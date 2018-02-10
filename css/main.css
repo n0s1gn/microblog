@@ -91,3 +91,12 @@ a{
   color:#777;
   font-size: 13px;
 }
+
+
+#menu-checkbox {
+  display: none;
+}
+
+#menu-toggle {
+  display: none;
+}
