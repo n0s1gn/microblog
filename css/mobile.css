@@ -36,3 +36,7 @@
 #menu-checkbox:checked ~ .tag-list {
   display: block;
 }
+
+pre {
+  white-space: pre-wrap;
+}
